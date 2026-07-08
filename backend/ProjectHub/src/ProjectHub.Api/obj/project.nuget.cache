@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "PzGRV+GxNhk=",
+  "success": true,
+  "projectFilePath": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Api\\ProjectHub.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ngô Hoàng Sang\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.14\\microsoft.aspnetcore.openapi.9.0.14.nupkg.sha512",
+    "C:\\Users\\Ngô Hoàng Sang\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

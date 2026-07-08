@@ -1,0 +1,106 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "ProjectHub.Api/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": "9.0.14",
+          "ProjectHub.Application": "1.0.0",
+          "ProjectHub.Persistence": "1.0.0"
+        },
+        "runtime": {
+          "ProjectHub.Api.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.OpenApi/9.0.14": {
+        "dependencies": {
+          "Microsoft.OpenApi": "1.6.17"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "assemblyVersion": "9.0.14.0",
+            "fileVersion": "9.0.1426.11909"
+          }
+        }
+      },
+      "Microsoft.OpenApi/1.6.17": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "assemblyVersion": "1.6.17.0",
+            "fileVersion": "1.6.17.0"
+          }
+        }
+      },
+      "ProjectHub.Application/1.0.0": {
+        "dependencies": {
+          "ProjectHub.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ProjectHub.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ProjectHub.Domain/1.0.0": {
+        "runtime": {
+          "ProjectHub.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ProjectHub.Persistence/1.0.0": {
+        "dependencies": {
+          "ProjectHub.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ProjectHub.Persistence.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProjectHub.Api/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.OpenApi/9.0.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ywJcbdtem5tFlg73eCFb/ORdsZlASaTf0XixxsTQ8Z/ama/83CXB/nvBrvCrxkk62AKpdTxiESK0SvgmZ9HKFA==",
+      "path": "microsoft.aspnetcore.openapi/9.0.14",
+      "hashPath": "microsoft.aspnetcore.openapi.9.0.14.nupkg.sha512"
+    },
+    "Microsoft.OpenApi/1.6.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Le+kehlmrlQfuDFUt1zZ2dVwrhFQtKREdKBo+rexOwaCoYP0/qpgT9tLxCsZjsgR5Itk1UKPcbgO+FyaNid/bA==",
+      "path": "microsoft.openapi/1.6.17",
+      "hashPath": "microsoft.openapi.1.6.17.nupkg.sha512"
+    },
+    "ProjectHub.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProjectHub.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProjectHub.Persistence/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
