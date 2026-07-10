@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjectHub.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c11748d316662a9becfb88c436b9dac1042d473c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+012bf7d3f9914af17769902bdf51fc0af53b5a4c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjectHub.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjectHub.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
