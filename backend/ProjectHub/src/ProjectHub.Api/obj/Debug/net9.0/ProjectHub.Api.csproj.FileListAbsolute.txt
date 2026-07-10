@@ -72,3 +72,17 @@ E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Api\obj\Debug\net9.0\P
 E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Api\obj\Debug\net9.0\ref\ProjectHub.Api.dll
 E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Api\bin\Debug\net9.0\ProjectHub.Domain.dll
 E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Api\bin\Debug\net9.0\ProjectHub.Domain.pdb
+E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Api\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Api\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Api\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Api\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Api\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Api\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Api\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Api\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Api\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Api\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Api\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Api\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Api\bin\Debug\net9.0\Npgsql.dll
+E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Api\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
