@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{730D7C06-0771-685D-670C-9BBC7114C316}|src\\ProjectHub.Domain\\ProjectHub.Domain.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.domain\\entities\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{730D7C06-0771-685D-670C-9BBC7114C316}|src\\ProjectHub.Domain\\ProjectHub.Domain.csproj|solutionrelative:src\\projecthub.domain\\entities\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730D7C06-0771-685D-670C-9BBC7114C316}|src\\ProjectHub.Domain\\ProjectHub.Domain.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{730D7C06-0771-685D-670C-9BBC7114C316}|src\\ProjectHub.Domain\\ProjectHub.Domain.csproj|solutionrelative:src\\projecthub.domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730D7C06-0771-685D-670C-9BBC7114C316}|src\\ProjectHub.Domain\\ProjectHub.Domain.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.domain\\entities\\workspacemember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{730D7C06-0771-685D-670C-9BBC7114C316}|src\\ProjectHub.Domain\\ProjectHub.Domain.csproj|solutionrelative:src\\projecthub.domain\\entities\\workspacemember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730D7C06-0771-685D-670C-9BBC7114C316}|src\\ProjectHub.Domain\\ProjectHub.Domain.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.domain\\entities\\workspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{730D7C06-0771-685D-670C-9BBC7114C316}|src\\ProjectHub.Domain\\ProjectHub.Domain.csproj|solutionrelative:src\\projecthub.domain\\entities\\workspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730D7C06-0771-685D-670C-9BBC7114C316}|src\\ProjectHub.Domain\\ProjectHub.Domain.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{730D7C06-0771-685D-670C-9BBC7114C316}|src\\ProjectHub.Domain\\ProjectHub.Domain.csproj|solutionrelative:src\\projecthub.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +30,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Task.cs",
+              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Domain\\Entities\\Task.cs",
+              "RelativeDocumentMoniker": "src\\ProjectHub.Domain\\Entities\\Task.cs",
+              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Domain\\Entities\\Task.cs",
+              "RelativeToolTip": "src\\ProjectHub.Domain\\Entities\\Task.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T16:31:36.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Project.cs",
+              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Domain\\Entities\\Project.cs",
+              "RelativeDocumentMoniker": "src\\ProjectHub.Domain\\Entities\\Project.cs",
+              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Domain\\Entities\\Project.cs*",
+              "RelativeToolTip": "src\\ProjectHub.Domain\\Entities\\Project.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T16:31:31.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WorkspaceMember.cs",
+              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Domain\\Entities\\WorkspaceMember.cs",
+              "RelativeDocumentMoniker": "src\\ProjectHub.Domain\\Entities\\WorkspaceMember.cs",
+              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Domain\\Entities\\WorkspaceMember.cs*",
+              "RelativeToolTip": "src\\ProjectHub.Domain\\Entities\\WorkspaceMember.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T16:31:24.696Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -30,6 +90,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Workspace.cs",
+              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Domain\\Entities\\Workspace.cs",
+              "RelativeDocumentMoniker": "src\\ProjectHub.Domain\\Entities\\Workspace.cs",
+              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Domain\\Entities\\Workspace.cs*",
+              "RelativeToolTip": "src\\ProjectHub.Domain\\Entities\\Workspace.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T16:31:18.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "src\\ProjectHub.Domain\\Entities\\User.cs",
+              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "src\\ProjectHub.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T16:31:01.568Z",
+              "EditorCaption": ""
             }
           ]
         }
