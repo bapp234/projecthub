@@ -251,6 +251,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Application\\ProjectHub.Application.csproj": {
+                "projectPath": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Application\\ProjectHub.Application.csproj"
+              },
               "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Domain\\ProjectHub.Domain.csproj": {
                 "projectPath": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Domain\\ProjectHub.Domain.csproj"
               }
@@ -272,6 +275,28 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.17, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
