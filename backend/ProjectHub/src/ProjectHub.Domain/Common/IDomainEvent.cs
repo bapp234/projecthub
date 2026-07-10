@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace ProjectHub.Domain.Common
 {
-    internal class IDomainEvent
+    /// <summary>
+    /// Represents a domain event in the domain model.
+    /// </summary>
+    public interface IDomainEvent
     {
     }
 }
