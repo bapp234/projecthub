@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ProjectHub.Domain.Common
 {
-    internal class IAggregateRoot
+    /// <summary>
+    /// Marker interface that identifies an entity as an Aggregate Root
+    /// in Domain-Driven Design (DDD).
+    /// </summary>
+    public interface IAggregateRoot
     {
     }
 }

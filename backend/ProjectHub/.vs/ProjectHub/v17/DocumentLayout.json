@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{730D7C06-0771-685D-670C-9BBC7114C316}|src\\ProjectHub.Domain\\ProjectHub.Domain.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{730D7C06-0771-685D-670C-9BBC7114C316}|src\\ProjectHub.Domain\\ProjectHub.Domain.csproj|solutionrelative:src\\projecthub.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,19 +30,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Domain\\Common\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "src\\ProjectHub.Domain\\Common\\BaseEntity.cs",
-              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Domain\\Common\\BaseEntity.cs",
-              "RelativeToolTip": "src\\ProjectHub.Domain\\Common\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-10T11:25:17.976Z",
-              "EditorCaption": ""
             }
           ]
         }
