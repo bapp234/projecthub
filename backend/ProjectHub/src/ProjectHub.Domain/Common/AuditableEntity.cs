@@ -15,5 +15,11 @@ namespace ProjectHub.Domain.Common
         public Guid? CreatedBy { get; protected set; }
 
         public Guid? UpdatedBy { get; protected set; }
+
+        public bool IsDeleted { get; protected set; }
+
+        public DateTimeOffset? DeletedAt { get; protected set; }
+
+        public Guid? DeletedBy { get; protected set; }
     }
 }
