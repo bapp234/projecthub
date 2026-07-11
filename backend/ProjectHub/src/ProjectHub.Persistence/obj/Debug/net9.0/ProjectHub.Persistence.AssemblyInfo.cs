@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjectHub.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac8c0f3df64060faab5a5759f741dbc9d6817847")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+094e18024e2084269c97e220b00af62235923329")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjectHub.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjectHub.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
