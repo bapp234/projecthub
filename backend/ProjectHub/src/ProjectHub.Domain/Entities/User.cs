@@ -2,7 +2,7 @@
 
 namespace ProjectHub.Domain.Entities;
 
-public sealed class User : AuditableEntity, IAggregateRoot
+public sealed class User : AggregateRoot
 {
     private User() { }
 

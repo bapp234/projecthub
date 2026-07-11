@@ -2,7 +2,7 @@
 
 namespace ProjectHub.Domain.Entities;
 
-public sealed class Workspace : AuditableEntity, IAggregateRoot
+public sealed class Workspace : AggregateRoot
 {
     private Workspace() { }
 
