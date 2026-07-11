@@ -19,4 +19,11 @@ public sealed class ProjectHubDbContext : DbContext
     public DbSet<Project> Projects => Set<Project>();
 
     public DbSet<ProjectHub.Domain.Entities.Task> Tasks => Set<ProjectHub.Domain.Entities.Task>();
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(ProjectHubDbContext).Assembly);
+    }
 }
