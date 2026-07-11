@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using ProjectHub.Persistence.Database;
-
+using ProjectHub.Application.Interfaces;
 namespace ProjectHub.Persistence;
 
 public static class DependencyInjection
@@ -17,7 +17,7 @@ public static class DependencyInjection
         {
             options.UseNpgsql(connectionString);
         });
-
+        services.AddScoped<IUserRepository, IUserRepository>();
         return services;
     }
 }

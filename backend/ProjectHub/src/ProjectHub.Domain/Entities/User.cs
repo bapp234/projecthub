@@ -14,4 +14,17 @@ public sealed class User : AggregateRoot
 
     public ICollection<WorkspaceMember> WorkspaceMemberships { get; private set; }
         = new List<WorkspaceMember>();
+
+    public static User Create(
+        string fullName,
+        string email,
+        string? avatarUrl)
+    {
+        return new User
+        {
+            FullName = fullName,
+            Email = email,
+            AvatarUrl = avatarUrl
+        };
+    }
 }
