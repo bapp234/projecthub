@@ -24,4 +24,10 @@
     <ProjectReference Include="..\ProjectHub.Domain\ProjectHub.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Configurations\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 </Project>
