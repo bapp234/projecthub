@@ -1,4 +1,5 @@
 using ProjectHub.Persistence;
+using Scalar.AspNetCore;
 namespace ProjectHub.Api
 {
     public class Program
@@ -20,6 +21,7 @@ namespace ProjectHub.Api
             if (app.Environment.IsDevelopment())
             {
                 app.MapOpenApi();
+                app.MapScalarApiReference();
             }
 
             app.UseHttpsRedirection();
@@ -28,8 +30,6 @@ namespace ProjectHub.Api
 
 
             app.MapControllers();
-
-            app.MapGet("/", () => "ProjectHub API is running");
 
             app.Run();
         }

@@ -11,7 +11,8 @@
           "Microsoft.AspNetCore.OpenApi": "9.0.14",
           "Microsoft.EntityFrameworkCore.Design": "9.0.17",
           "ProjectHub.Application": "1.0.0",
-          "ProjectHub.Persistence": "1.0.0"
+          "ProjectHub.Persistence": "1.0.0",
+          "Scalar.AspNetCore": "2.16.11"
         },
         "runtime": {
           "ProjectHub.Api.dll": {}
@@ -543,6 +544,14 @@
           }
         }
       },
+      "Scalar.AspNetCore/2.16.11": {
+        "runtime": {
+          "lib/net9.0/Scalar.AspNetCore.dll": {
+            "assemblyVersion": "2.16.11.0",
+            "fileVersion": "2.16.11.0"
+          }
+        }
+      },
       "System.CodeDom/6.0.0": {
         "runtime": {
           "lib/net6.0/System.CodeDom.dll": {
@@ -878,6 +887,13 @@
       "sha512": "sha512-mw5vcY2IEc7L+IeGrxpp/J5OSnCcjkjAgJYCm/eD52wpZze8zsSifdqV7zXslSMmfJG2iIUGZyo3KuDtEFKwMQ==",
       "path": "npgsql.entityframeworkcore.postgresql/9.0.4",
       "hashPath": "npgsql.entityframeworkcore.postgresql.9.0.4.nupkg.sha512"
+    },
+    "Scalar.AspNetCore/2.16.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Sa7aHHX3x6qJo/nCOf0MPTi+Nl8tihiEDqWw7mRMajFn6KKElZyM4CP4C6ptUBPFfBWN61dvYcuMe8yWJaeYsA==",
+      "path": "scalar.aspnetcore/2.16.11",
+      "hashPath": "scalar.aspnetcore.2.16.11.nupkg.sha512"
     },
     "System.CodeDom/6.0.0": {
       "type": "package",
