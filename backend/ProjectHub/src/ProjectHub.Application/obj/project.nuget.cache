@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "caZsHAX726U=",
+  "dgSpecHash": "x4kPI8mFweU=",
   "success": true,
   "projectFilePath": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Application\\ProjectHub.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Ngô Hoàng Sang\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
+    "C:\\Users\\Ngô Hoàng Sang\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
+    "C:\\Users\\Ngô Hoàng Sang\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\Ngô Hoàng Sang\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Ngô Hoàng Sang\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
