@@ -1,6 +1,7 @@
 using ProjectHub.Persistence;
 using Scalar.AspNetCore;
 using ProjectHub.Application;
+using ProjectHub.Application.Interfaces;
 namespace ProjectHub.Api
 {
     public class Program
