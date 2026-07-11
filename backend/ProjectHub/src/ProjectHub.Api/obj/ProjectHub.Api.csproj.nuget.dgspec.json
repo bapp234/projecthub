@@ -67,6 +67,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.17, )"
+            },
+            "Scalar.AspNetCore": {
+              "target": "Package",
+              "version": "[2.16.11, )"
             }
           },
           "imports": [
