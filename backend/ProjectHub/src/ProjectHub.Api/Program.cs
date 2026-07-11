@@ -1,4 +1,4 @@
-
+using ProjectHub.Persistence;
 namespace ProjectHub.Api
 {
     public class Program
@@ -6,6 +6,7 @@ namespace ProjectHub.Api
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            builder.Services.AddPersistence(builder.Configuration);
 
             // Add services to the container.
 
