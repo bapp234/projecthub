@@ -171,3 +171,7 @@ E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Api\bin\Debug\net9.0\t
 E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Api\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Api\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Api\bin\Debug\net9.0\Scalar.AspNetCore.dll
+E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Api\bin\Debug\net9.0\FluentValidation.dll
+E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Api\bin\Debug\net9.0\MediatR.dll
+E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Api\bin\Debug\net9.0\MediatR.Contracts.dll
+E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Api\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
