@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjectHub.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0544e7dad88ce4a4a182b2ac16b81c291c296c51")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+094e18024e2084269c97e220b00af62235923329")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjectHub.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjectHub.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
