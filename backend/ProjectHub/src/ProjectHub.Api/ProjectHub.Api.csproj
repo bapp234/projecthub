@@ -20,4 +20,8 @@
     <ProjectReference Include="..\ProjectHub.Persistence\ProjectHub.Persistence.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+  </ItemGroup>
+
 </Project>

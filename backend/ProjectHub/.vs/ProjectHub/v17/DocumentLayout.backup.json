@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{48E736EA-D004-E360-F34F-F17F0869F970}|src\\ProjectHub.Api\\ProjectHub.Api.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48E736EA-D004-E360-F34F-F17F0869F970}|src\\ProjectHub.Api\\ProjectHub.Api.csproj|solutionrelative:src\\projecthub.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{48E736EA-D004-E360-F34F-F17F0869F970}|src\\ProjectHub.Api\\ProjectHub.Api.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E736EA-D004-E360-F34F-F17F0869F970}|src\\ProjectHub.Api\\ProjectHub.Api.csproj|solutionrelative:src\\projecthub.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5F129C-7E52-4548-A146-C293888224D9}|ProjectHub.Api.IntegrationTests\\ProjectHub.Api.IntegrationTests.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\projecthub.api.integrationtests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5F129C-7E52-4548-A146-C293888224D9}|ProjectHub.Api.IntegrationTests\\ProjectHub.Api.IntegrationTests.csproj|solutionrelative:projecthub.api.integrationtests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E736EA-D004-E360-F34F-F17F0869F970}|src\\ProjectHub.Api\\ProjectHub.Api.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.api\\exceptionhandling\\exceptionmappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E736EA-D004-E360-F34F-F17F0869F970}|src\\ProjectHub.Api\\ProjectHub.Api.csproj|solutionrelative:src\\projecthub.api\\exceptionhandling\\exceptionmappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E736EA-D004-E360-F34F-F17F0869F970}|src\\ProjectHub.Api\\ProjectHub.Api.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.api\\problemdetails\\problemtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E736EA-D004-E360-F34F-F17F0869F970}|src\\ProjectHub.Api\\ProjectHub.Api.csproj|solutionrelative:src\\projecthub.api\\problemdetails\\problemtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,15 +50,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Api\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "src\\ProjectHub.Api\\Controllers\\UserController.cs",
-              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Api\\Controllers\\UserController.cs",
-              "RelativeToolTip": "src\\ProjectHub.Api\\Controllers\\UserController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwCMAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\ProjectHub.Api.IntegrationTests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "ProjectHub.Api.IntegrationTests\\UnitTest1.cs",
+              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\ProjectHub.Api.IntegrationTests\\UnitTest1.cs",
+              "RelativeToolTip": "ProjectHub.Api.IntegrationTests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-11T14:26:55.092Z",
+              "WhenOpened": "2026-07-12T15:53:27.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\ProjectHub.Api\\Program.cs",
+              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Api\\Program.cs",
+              "RelativeToolTip": "src\\ProjectHub.Api\\Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T15:50:59.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProblemTypes.cs",
+              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Api\\ProblemDetails\\ProblemTypes.cs",
+              "RelativeDocumentMoniker": "src\\ProjectHub.Api\\ProblemDetails\\ProblemTypes.cs",
+              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Api\\ProblemDetails\\ProblemTypes.cs",
+              "RelativeToolTip": "src\\ProjectHub.Api\\ProblemDetails\\ProblemTypes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T15:46:45.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExceptionMappings.cs",
+              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Api\\ExceptionHandling\\ExceptionMappings.cs",
+              "RelativeDocumentMoniker": "src\\ProjectHub.Api\\ExceptionHandling\\ExceptionMappings.cs",
+              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Api\\ExceptionHandling\\ExceptionMappings.cs",
+              "RelativeToolTip": "src\\ProjectHub.Api\\ExceptionHandling\\ExceptionMappings.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAQwDAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T15:46:24.144Z",
               "EditorCaption": ""
             }
           ]
