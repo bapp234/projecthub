@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectHub.Domain", "src\Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectHub.Persistence", "src\ProjectHub.Persistence\ProjectHub.Persistence.csproj", "{D118B918-1C9C-EFC9-7DEA-B4BACC4C67F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectHub.Api.IntegrationTests", "ProjectHub.Api.IntegrationTests\ProjectHub.Api.IntegrationTests.csproj", "{5C5F129C-7E52-4548-A146-C293888224D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D118B918-1C9C-EFC9-7DEA-B4BACC4C67F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D118B918-1C9C-EFC9-7DEA-B4BACC4C67F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D118B918-1C9C-EFC9-7DEA-B4BACC4C67F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C5F129C-7E52-4548-A146-C293888224D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C5F129C-7E52-4548-A146-C293888224D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C5F129C-7E52-4548-A146-C293888224D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C5F129C-7E52-4548-A146-C293888224D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

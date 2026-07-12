@@ -1,7 +1,8 @@
-using ProjectHub.Persistence;
-using Scalar.AspNetCore;
+using ProjectHub.Api.ExceptionHandling;
 using ProjectHub.Application;
 using ProjectHub.Application.Interfaces;
+using ProjectHub.Persistence;
+using Scalar.AspNetCore;
 namespace ProjectHub.Api
 {
     public class Program
@@ -11,7 +12,8 @@ namespace ProjectHub.Api
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddApplication();
             builder.Services.AddPersistence(builder.Configuration);
-
+            builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
+            builder.Services.AddProblemDetails();
             // Add services to the container.
 
             builder.Services.AddControllers();
@@ -27,10 +29,11 @@ namespace ProjectHub.Api
                 app.MapScalarApiReference();
             }
 
+            app.UseExceptionHandler();
+
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
 
             app.MapControllers();
 
