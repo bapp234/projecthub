@@ -15,6 +15,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\src\ProjectHub.Domain\ProjectHub.Domain.csproj" />
+    <ProjectReference Include="..\src\ProjectHub.Persistence\ProjectHub.Persistence.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Using Include="Xunit" />
   </ItemGroup>
 
