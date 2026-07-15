@@ -1,8 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ProjectHub.Application.Interfaces;
 using ProjectHub.Domain.Entities;
+using ProjectHub.Domain.ValueObjects;
 using ProjectHub.Persistence.Database;
 using Task = System.Threading.Tasks.Task;
+
 namespace ProjectHub.Persistence.Repositories;
 
 public sealed class UserRepository : IUserRepository
@@ -23,11 +25,13 @@ public sealed class UserRepository : IUserRepository
     }
 
     public async Task<User?> GetByEmailAsync(
-        string email,
+        Email email,
         CancellationToken cancellationToken)
     {
         return await _context.Users
-            .FirstOrDefaultAsync(x => x.Email == email, cancellationToken);
+            .FirstOrDefaultAsync(
+                x => x.Email.Value == email.Value,
+                cancellationToken);
     }
 
     public async Task AddAsync(

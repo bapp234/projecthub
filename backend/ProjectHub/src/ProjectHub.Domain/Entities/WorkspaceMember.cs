@@ -1,18 +1,26 @@
 ﻿using ProjectHub.Domain.Common;
+using ProjectHub.Domain.Enums;
 
 namespace ProjectHub.Domain.Entities;
 
-public sealed class WorkspaceMember : AuditableEntity
+public sealed class WorkspaceMember : AggregateRoot
 {
-    private WorkspaceMember() { }
+    private WorkspaceMember()
+    {
+    }
 
-    public Guid WorkspaceId { get; private set; }
-
-    public Workspace Workspace { get; private set; } = null!;
 
     public Guid UserId { get; private set; }
 
-    public User User { get; private set; } = null!;
 
-    public string Role { get; private set; } = string.Empty;
+    public User User { get; private set; } = default!;
+
+
+    public Guid WorkspaceId { get; private set; }
+
+
+    public Workspace Workspace { get; private set; } = default!;
+
+
+    public WorkspaceRole Role { get; private set; }
 }

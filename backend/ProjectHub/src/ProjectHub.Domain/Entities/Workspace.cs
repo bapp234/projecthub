@@ -1,11 +1,13 @@
 ﻿using ProjectHub.Domain.Common;
-
+using ProjectHub.Domain.Enums;
 namespace ProjectHub.Domain.Entities;
 
 public sealed class Workspace : AggregateRoot
 {
-    private Workspace() { }
-
+    private Workspace()
+    {
+        Members = new List<WorkspaceMember>();
+    }
     public string Name { get; private set; } = string.Empty;
 
     public string Slug { get; private set; } = string.Empty;
@@ -15,6 +17,7 @@ public sealed class Workspace : AggregateRoot
     public Guid OwnerId { get; private set; }
 
     public User Owner { get; private set; } = null!;
+    public WorkspaceType Type { get; private set; }
 
     public ICollection<WorkspaceMember> Members { get; private set; }
         = new List<WorkspaceMember>();

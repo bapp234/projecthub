@@ -13,7 +13,7 @@ public sealed class WorkspaceMemberConfiguration : IEntityTypeConfiguration<Work
         builder.HasKey(x => x.Id);
 
         builder.Property(x => x.Role)
-            .HasMaxLength(50)
+                .HasConversion<int>()
             .IsRequired();
 
         builder.HasOne(x => x.Workspace)
