@@ -15,9 +15,12 @@ E:\PORFOLITO\projecthub\backend\ProjectHub\ProjectHub.Persistence\obj\Debug\net9
 E:\PORFOLITO\projecthub\backend\ProjectHub\ProjectHub.Persistence\obj\Debug\net9.0\ProjectHub.Persistence.pdb
 E:\PORFOLITO\projecthub\backend\ProjectHub\ProjectHub.Persistence\obj\Debug\net9.0\ref\ProjectHub.Persistence.dll
 E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Persistence\bin\Debug\net9.0\ProjectHub.Persistence.deps.json
+E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Persistence\bin\Debug\net9.0\ProjectHub.Persistence.runtimeconfig.json
 E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Persistence\bin\Debug\net9.0\ProjectHub.Persistence.dll
 E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Persistence\bin\Debug\net9.0\ProjectHub.Persistence.pdb
+E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Persistence\bin\Debug\net9.0\ProjectHub.Application.dll
 E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Persistence\bin\Debug\net9.0\ProjectHub.Domain.dll
+E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Persistence\bin\Debug\net9.0\ProjectHub.Application.pdb
 E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Persistence\bin\Debug\net9.0\ProjectHub.Domain.pdb
 E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Persistence\obj\Debug\net9.0\ProjectHub.Persistence.csproj.AssemblyReference.cache
 E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Persistence\obj\Debug\net9.0\ProjectHub.Persistence.GeneratedMSBuildEditorConfig.editorconfig
@@ -29,8 +32,5 @@ E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Persistence\obj\Debug\
 E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Persistence\obj\Debug\net9.0\ProjectHub.Persistence.dll
 E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Persistence\obj\Debug\net9.0\refint\ProjectHub.Persistence.dll
 E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Persistence\obj\Debug\net9.0\ProjectHub.Persistence.pdb
-E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Persistence\obj\Debug\net9.0\ref\ProjectHub.Persistence.dll
-E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Persistence\bin\Debug\net9.0\ProjectHub.Persistence.runtimeconfig.json
 E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Persistence\obj\Debug\net9.0\ProjectHub.Persistence.genruntimeconfig.cache
-E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Persistence\bin\Debug\net9.0\ProjectHub.Application.dll
-E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Persistence\bin\Debug\net9.0\ProjectHub.Application.pdb
+E:\PORFOLITO\projecthub\backend\ProjectHub\src\ProjectHub.Persistence\obj\Debug\net9.0\ref\ProjectHub.Persistence.dll
