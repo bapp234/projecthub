@@ -1,30 +1,67 @@
 ﻿using ProjectHub.Domain.Common;
+using ProjectHub.Domain.Enums;
+using ProjectHub.Domain.ValueObjects;
 
 namespace ProjectHub.Domain.Entities;
 
 public sealed class User : AggregateRoot
 {
-    private User() { }
+    private User()
+    {
+        WorkspaceMemberships = new List<WorkspaceMember>();
+    }
+
 
     public string FullName { get; private set; } = string.Empty;
 
-    public string Email { get; private set; } = string.Empty;
+
+    public Email Email { get; private set; } = default!;
+
+
+    public PasswordHash? PasswordHash { get; private set; }
 
     public string? AvatarUrl { get; private set; }
+
+
+    public string? Bio { get; private set; }
+
+
+    public UserStatus Status { get; private set; }
+
+
+    public bool EmailVerified { get; private set; }
+
+
+    public int FailedLoginAttempts { get; private set; }
+
+
+    public DateTime? LockoutEndUtc { get; private set; }
+
+
+    public DateTime? LastLoginUtc { get; private set; }
+
+
+
 
     public ICollection<WorkspaceMember> WorkspaceMemberships { get; private set; }
         = new List<WorkspaceMember>();
 
     public static User Create(
-        string fullName,
-        string email,
-        string? avatarUrl)
+    string fullName,
+    Email email,
+    string? avatarUrl)
     {
         return new User
         {
             FullName = fullName,
             Email = email,
-            AvatarUrl = avatarUrl
+            PasswordHash = null,
+            AvatarUrl = avatarUrl,
+            Status = UserStatus.Active,
+            EmailVerified = false,
+            FailedLoginAttempts = 0,
+            CreatedAt = DateTime.UtcNow,
+            UpdatedAt = DateTime.UtcNow
         };
     }
 }

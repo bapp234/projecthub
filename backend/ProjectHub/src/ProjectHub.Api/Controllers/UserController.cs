@@ -1,6 +1,5 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using ProjectHub.Application.Features.Users.Commands.CreateUser;
 using ProjectHub.Application.Features.Users.Queries.GetUserById;
 
 namespace ProjectHub.Api.Controllers
@@ -16,13 +15,7 @@ namespace ProjectHub.Api.Controllers
             _mediator = mediator;
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Create(CreateUserCommand command)
-        {
-            var result = await _mediator.Send(command);
-
-            return Ok(result);
-        }
+        
 
         [HttpGet("{id:guid}")]
         public async Task<IActionResult> Get(Guid id)
