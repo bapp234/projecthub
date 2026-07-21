@@ -1,5 +1,6 @@
 ﻿using FluentValidation;
 using ProjectHub.Domain.Constants;
+using ProjectHub.Domain.Messages;
 
 namespace ProjectHub.Application.Features.Authentication.Commands.Register;
 
@@ -25,7 +26,7 @@ public sealed class RegisterCommandValidator
         RuleFor(x => x.ConfirmPassword)
             .NotEmpty()
             .Equal(x => x.Password)
-            .WithMessage("Passwords do not match.");
+            .WithMessage(ValidationMessages.PasswordsDoNotMatch);
 
         RuleFor(x => x.AvatarUrl)
             .MaximumLength(ValidationConstants.AvatarUrlMaxLength)

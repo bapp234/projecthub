@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C5F129C-7E52-4548-A146-C293888224D9}|ProjectHub.Api.IntegrationTests\\ProjectHub.Api.IntegrationTests.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\projecthub.api.integrationtests\\authentication\\jwtprovidertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C5F129C-7E52-4548-A146-C293888224D9}|ProjectHub.Api.IntegrationTests\\ProjectHub.Api.IntegrationTests.csproj|solutionrelative:projecthub.api.integrationtests\\authentication\\jwtprovidertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C5F129C-7E52-4548-A146-C293888224D9}|ProjectHub.Api.IntegrationTests\\ProjectHub.Api.IntegrationTests.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\projecthub.api.integrationtests\\authentication\\loginhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5F129C-7E52-4548-A146-C293888224D9}|ProjectHub.Api.IntegrationTests\\ProjectHub.Api.IntegrationTests.csproj|solutionrelative:projecthub.api.integrationtests\\authentication\\loginhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57CB6ECB-5EFD-0A72-F940-8F874990C80E}|src\\ProjectHub.Application\\ProjectHub.Application.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.application\\features\\authentication\\commands\\register\\registerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57CB6ECB-5EFD-0A72-F940-8F874990C80E}|src\\ProjectHub.Application\\ProjectHub.Application.csproj|solutionrelative:src\\projecthub.application\\features\\authentication\\commands\\register\\registerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57CB6ECB-5EFD-0A72-F940-8F874990C80E}|src\\ProjectHub.Application\\ProjectHub.Application.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.application\\features\\authentication\\commands\\login\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57CB6ECB-5EFD-0A72-F940-8F874990C80E}|src\\ProjectHub.Application\\ProjectHub.Application.csproj|solutionrelative:src\\projecthub.application\\features\\authentication\\commands\\login\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57CB6ECB-5EFD-0A72-F940-8F874990C80E}|src\\ProjectHub.Application\\ProjectHub.Application.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57CB6ECB-5EFD-0A72-F940-8F874990C80E}|src\\ProjectHub.Application\\ProjectHub.Application.csproj|solutionrelative:src\\projecthub.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{730D7C06-0771-685D-670C-9BBC7114C316}|src\\ProjectHub.Domain\\ProjectHub.Domain.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.domain\\interfaces\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{730D7C06-0771-685D-670C-9BBC7114C316}|src\\ProjectHub.Domain\\ProjectHub.Domain.csproj|solutionrelative:src\\projecthub.domain\\interfaces\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{730D7C06-0771-685D-670C-9BBC7114C316}|src\\ProjectHub.Domain\\ProjectHub.Domain.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{730D7C06-0771-685D-670C-9BBC7114C316}|src\\ProjectHub.Domain\\ProjectHub.Domain.csproj|solutionrelative:src\\projecthub.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57CB6ECB-5EFD-0A72-F940-8F874990C80E}|src\\ProjectHub.Application\\ProjectHub.Application.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.application\\features\\authentication\\commands\\login\\logincommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57CB6ECB-5EFD-0A72-F940-8F874990C80E}|src\\ProjectHub.Application\\ProjectHub.Application.csproj|solutionrelative:src\\projecthub.application\\features\\authentication\\commands\\login\\logincommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,66 +47,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "JwtProviderTests.cs",
-              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\ProjectHub.Api.IntegrationTests\\Authentication\\JwtProviderTests.cs",
-              "RelativeDocumentMoniker": "ProjectHub.Api.IntegrationTests\\Authentication\\JwtProviderTests.cs",
-              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\ProjectHub.Api.IntegrationTests\\Authentication\\JwtProviderTests.cs",
-              "RelativeToolTip": "ProjectHub.Api.IntegrationTests\\Authentication\\JwtProviderTests.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCAAAAA5AAAAAAAAAA==",
+              "Title": "LoginHandlerTests.cs",
+              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\ProjectHub.Api.IntegrationTests\\Authentication\\LoginHandlerTests.cs",
+              "RelativeDocumentMoniker": "ProjectHub.Api.IntegrationTests\\Authentication\\LoginHandlerTests.cs",
+              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\ProjectHub.Api.IntegrationTests\\Authentication\\LoginHandlerTests.cs",
+              "RelativeToolTip": "ProjectHub.Api.IntegrationTests\\Authentication\\LoginHandlerTests.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAApwJoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T08:37:00.032Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "src\\ProjectHub.Domain\\Entities\\User.cs",
-              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Domain\\Entities\\User.cs",
-              "RelativeToolTip": "src\\ProjectHub.Domain\\Entities\\User.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T08:23:22.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IPasswordHasher.cs",
-              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Domain\\Interfaces\\IPasswordHasher.cs",
-              "RelativeDocumentMoniker": "src\\ProjectHub.Domain\\Interfaces\\IPasswordHasher.cs",
-              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Domain\\Interfaces\\IPasswordHasher.cs",
-              "RelativeToolTip": "src\\ProjectHub.Domain\\Interfaces\\IPasswordHasher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T08:20:14.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Application\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "src\\ProjectHub.Application\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Application\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "src\\ProjectHub.Application\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T08:19:45.241Z",
+              "WhenOpened": "2026-07-21T14:44:19.454Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RegisterHandler.cs",
-              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Register\\RegisterHandler.cs",
-              "RelativeDocumentMoniker": "src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Register\\RegisterHandler.cs",
-              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Register\\RegisterHandler.cs",
-              "RelativeToolTip": "src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Register\\RegisterHandler.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAqwCkAAAAcAAAAAAAAAA==",
+              "Title": "LoginHandler.cs",
+              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Login\\LoginHandler.cs",
+              "RelativeDocumentMoniker": "src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Login\\LoginHandler.cs",
+              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Login\\LoginHandler.cs",
+              "RelativeToolTip": "src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Login\\LoginHandler.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T08:11:11.451Z",
+              "WhenOpened": "2026-07-21T14:33:13.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginCommandValidator.cs",
+              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Login\\LoginCommandValidator.cs",
+              "RelativeDocumentMoniker": "src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Login\\LoginCommandValidator.cs",
+              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Login\\LoginCommandValidator.cs",
+              "RelativeToolTip": "src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Login\\LoginCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T14:31:47.735Z",
               "EditorCaption": ""
             }
           ]

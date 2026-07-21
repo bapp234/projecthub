@@ -132,3 +132,8 @@ E:\PORFOLITO\projecthub\backend\ProjectHub\ProjectHub.Api.IntegrationTests\obj\D
 E:\PORFOLITO\projecthub\backend\ProjectHub\ProjectHub.Api.IntegrationTests\obj\Debug\net9.0\ProjectHub.Api.IntegrationTests.pdb
 E:\PORFOLITO\projecthub\backend\ProjectHub\ProjectHub.Api.IntegrationTests\obj\Debug\net9.0\ProjectHub.Api.IntegrationTests.genruntimeconfig.cache
 E:\PORFOLITO\projecthub\backend\ProjectHub\ProjectHub.Api.IntegrationTests\obj\Debug\net9.0\ref\ProjectHub.Api.IntegrationTests.dll
+E:\PORFOLITO\projecthub\backend\ProjectHub\ProjectHub.Api.IntegrationTests\bin\Debug\net9.0\Castle.Core.dll
+E:\PORFOLITO\projecthub\backend\ProjectHub\ProjectHub.Api.IntegrationTests\bin\Debug\net9.0\Moq.dll
+E:\PORFOLITO\projecthub\backend\ProjectHub\ProjectHub.Api.IntegrationTests\bin\Debug\net9.0\System.Diagnostics.EventLog.dll
+E:\PORFOLITO\projecthub\backend\ProjectHub\ProjectHub.Api.IntegrationTests\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+E:\PORFOLITO\projecthub\backend\ProjectHub\ProjectHub.Api.IntegrationTests\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
