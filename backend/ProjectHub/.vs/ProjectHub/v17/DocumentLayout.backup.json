@@ -7,27 +7,20 @@
       "RelativeMoniker": "D:0:0:{5C5F129C-7E52-4548-A146-C293888224D9}|ProjectHub.Api.IntegrationTests\\ProjectHub.Api.IntegrationTests.csproj|solutionrelative:projecthub.api.integrationtests\\authentication\\jwtprovidertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{57CB6ECB-5EFD-0A72-F940-8F874990C80E}|src\\ProjectHub.Application\\ProjectHub.Application.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.application\\features\\authentication\\commands\\register\\registerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57CB6ECB-5EFD-0A72-F940-8F874990C80E}|src\\ProjectHub.Application\\ProjectHub.Application.csproj|solutionrelative:src\\projecthub.application\\features\\authentication\\commands\\register\\registerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57CB6ECB-5EFD-0A72-F940-8F874990C80E}|src\\ProjectHub.Application\\ProjectHub.Application.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57CB6ECB-5EFD-0A72-F940-8F874990C80E}|src\\ProjectHub.Application\\ProjectHub.Application.csproj|solutionrelative:src\\projecthub.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730D7C06-0771-685D-670C-9BBC7114C316}|src\\ProjectHub.Domain\\ProjectHub.Domain.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.domain\\interfaces\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{730D7C06-0771-685D-670C-9BBC7114C316}|src\\ProjectHub.Domain\\ProjectHub.Domain.csproj|solutionrelative:src\\projecthub.domain\\interfaces\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{730D7C06-0771-685D-670C-9BBC7114C316}|src\\ProjectHub.Domain\\ProjectHub.Domain.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{730D7C06-0771-685D-670C-9BBC7114C316}|src\\ProjectHub.Domain\\ProjectHub.Domain.csproj|solutionrelative:src\\projecthub.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57CB6ECB-5EFD-0A72-F940-8F874990C80E}|src\\ProjectHub.Application\\ProjectHub.Application.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.application\\projecthub.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{57CB6ECB-5EFD-0A72-F940-8F874990C80E}|src\\ProjectHub.Application\\ProjectHub.Application.csproj|solutionrelative:src\\projecthub.application\\projecthub.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48E736EA-D004-E360-F34F-F17F0869F970}|src\\ProjectHub.Api\\ProjectHub.Api.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.api\\projecthub.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{48E736EA-D004-E360-F34F-F17F0869F970}|src\\ProjectHub.Api\\ProjectHub.Api.csproj|solutionrelative:src\\projecthub.api\\projecthub.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D118B918-1C9C-EFC9-7DEA-B4BACC4C67F6}|src\\ProjectHub.Persistence\\ProjectHub.Persistence.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.persistence\\projecthub.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D118B918-1C9C-EFC9-7DEA-B4BACC4C67F6}|src\\ProjectHub.Persistence\\ProjectHub.Persistence.csproj|solutionrelative:src\\projecthub.persistence\\projecthub.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D118B918-1C9C-EFC9-7DEA-B4BACC4C67F6}|src\\ProjectHub.Persistence\\ProjectHub.Persistence.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.persistence\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D118B918-1C9C-EFC9-7DEA-B4BACC4C67F6}|src\\ProjectHub.Persistence\\ProjectHub.Persistence.csproj|solutionrelative:src\\projecthub.persistence\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -61,91 +54,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "User.cs",
-              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "src\\ProjectHub.Domain\\Entities\\User.cs",
-              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Domain\\Entities\\User.cs",
-              "RelativeToolTip": "src\\ProjectHub.Domain\\Entities\\User.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAA3wDcAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T13:13:56.886Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "JwtProviderTests.cs",
               "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\ProjectHub.Api.IntegrationTests\\Authentication\\JwtProviderTests.cs",
               "RelativeDocumentMoniker": "ProjectHub.Api.IntegrationTests\\Authentication\\JwtProviderTests.cs",
               "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\ProjectHub.Api.IntegrationTests\\Authentication\\JwtProviderTests.cs",
               "RelativeToolTip": "ProjectHub.Api.IntegrationTests\\Authentication\\JwtProviderTests.cs",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAQwKAAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCAAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T13:08:05.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProjectHub.Application",
-              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Application\\ProjectHub.Application.csproj",
-              "RelativeDocumentMoniker": "src\\ProjectHub.Application\\ProjectHub.Application.csproj",
-              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Application\\ProjectHub.Application.csproj",
-              "RelativeToolTip": "src\\ProjectHub.Application\\ProjectHub.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-15T12:59:05.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProjectHub.Api",
-              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Api\\ProjectHub.Api.csproj",
-              "RelativeDocumentMoniker": "src\\ProjectHub.Api\\ProjectHub.Api.csproj",
-              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Api\\ProjectHub.Api.csproj",
-              "RelativeToolTip": "src\\ProjectHub.Api\\ProjectHub.Api.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-15T12:58:53.127Z",
+              "WhenOpened": "2026-07-21T08:37:00.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ProjectHub.Persistence",
-              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Persistence\\ProjectHub.Persistence.csproj",
-              "RelativeDocumentMoniker": "src\\ProjectHub.Persistence\\ProjectHub.Persistence.csproj",
-              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Persistence\\ProjectHub.Persistence.csproj",
-              "RelativeToolTip": "src\\ProjectHub.Persistence\\ProjectHub.Persistence.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-15T12:58:42.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAAHMJAAAAAAAAAAAkwIAJAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2026-07-15T12:58:08.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Persistence\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "src\\ProjectHub.Persistence\\DependencyInjection.cs",
-              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Persistence\\DependencyInjection.cs",
-              "RelativeToolTip": "src\\ProjectHub.Persistence\\DependencyInjection.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwB0AAAABAAAAAAAAAA==",
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "src\\ProjectHub.Domain\\Entities\\User.cs",
+              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "src\\ProjectHub.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T12:51:03.132Z",
+              "WhenOpened": "2026-07-21T08:23:22.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IPasswordHasher.cs",
+              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Domain\\Interfaces\\IPasswordHasher.cs",
+              "RelativeDocumentMoniker": "src\\ProjectHub.Domain\\Interfaces\\IPasswordHasher.cs",
+              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Domain\\Interfaces\\IPasswordHasher.cs",
+              "RelativeToolTip": "src\\ProjectHub.Domain\\Interfaces\\IPasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T08:20:14.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Application\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "src\\ProjectHub.Application\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Application\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "src\\ProjectHub.Application\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T08:19:45.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterHandler.cs",
+              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Register\\RegisterHandler.cs",
+              "RelativeDocumentMoniker": "src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Register\\RegisterHandler.cs",
+              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Register\\RegisterHandler.cs",
+              "RelativeToolTip": "src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Register\\RegisterHandler.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAqwCkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T08:11:11.451Z",
               "EditorCaption": ""
             }
           ]

@@ -144,13 +144,13 @@
       "Microsoft.EntityFrameworkCore.Analyzers/9.0.17": {
         "type": "package"
       },
-      "Microsoft.EntityFrameworkCore.Relational/9.0.1": {
+      "Microsoft.EntityFrameworkCore.Relational/9.0.17": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "9.0.1",
-          "Microsoft.Extensions.Caching.Memory": "9.0.1",
-          "Microsoft.Extensions.Configuration.Abstractions": "9.0.1",
-          "Microsoft.Extensions.Logging": "9.0.1"
+          "Microsoft.EntityFrameworkCore": "9.0.17",
+          "Microsoft.Extensions.Caching.Memory": "9.0.17",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.17",
+          "Microsoft.Extensions.Logging": "9.0.17"
         },
         "compile": {
           "lib/net8.0/Microsoft.EntityFrameworkCore.Relational.dll": {
@@ -915,6 +915,7 @@
         "dependencies": {
           "BCrypt.Net-Next": "4.2.0",
           "Microsoft.EntityFrameworkCore": "9.0.17",
+          "Microsoft.EntityFrameworkCore.Relational": "9.0.17",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.17",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
           "ProjectHub.Application": "1.0.0",
@@ -1229,10 +1230,10 @@
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Relational/9.0.1": {
-      "sha512": "7Iu0h4oevRvH4IwPzmxuIJGYRt55TapoREGlluk75KCO7lenN0+QnzCl6cQDY48uDoxAUpJbpK2xW7o8Ix69dw==",
+    "Microsoft.EntityFrameworkCore.Relational/9.0.17": {
+      "sha512": "oOsu2/68Xed8YlSwoRJPuQJjPCgChLeZ9XmWI8dQRyqC/CxILirQo3hpub+hQDJ9f9z2u0d8DqvzR86TOnfdkg==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.relational/9.0.1",
+      "path": "microsoft.entityframeworkcore.relational/9.0.17",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1240,7 +1241,7 @@
         "PACKAGE.md",
         "lib/net8.0/Microsoft.EntityFrameworkCore.Relational.dll",
         "lib/net8.0/Microsoft.EntityFrameworkCore.Relational.xml",
-        "microsoft.entityframeworkcore.relational.9.0.1.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.9.0.17.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },

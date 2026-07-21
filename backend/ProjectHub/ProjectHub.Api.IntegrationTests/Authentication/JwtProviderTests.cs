@@ -30,6 +30,7 @@ public sealed class JwtProviderTests
         return User.Create(
             fullName: "Nguyen Van A",
             email: Email.Create("user@example.com"),
+            passwordHash: PasswordHash.Create("password"),
             avatarUrl: null);
     }
 

@@ -18,7 +18,7 @@ public sealed class User : AggregateRoot
     public Email Email { get; private set; } = default!;
 
 
-    public PasswordHash? PasswordHash { get; private set; }
+    public PasswordHash? PasswordHash { get; private set; }= default!;
 
     public string? AvatarUrl { get; private set; }
 
@@ -49,13 +49,14 @@ public sealed class User : AggregateRoot
     public static User Create(
     string fullName,
     Email email,
+    PasswordHash passwordHash,
     string? avatarUrl)
     {
         return new User
         {
             FullName = fullName,
             Email = email,
-            PasswordHash = null,
+            PasswordHash = passwordHash,
             AvatarUrl = avatarUrl,
             Status = UserStatus.Active,
             EmailVerified = false,

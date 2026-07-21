@@ -3,9 +3,10 @@ using ProjectHub.Domain.Constants;
 
 namespace ProjectHub.Application.Features.Authentication.Commands.Register;
 
-public sealed class RegisterValidator : AbstractValidator<RegisterCommand>
+public sealed class RegisterCommandValidator
+    : AbstractValidator<RegisterCommand>
 {
-    public RegisterValidator()
+    public RegisterCommandValidator()
     {
         RuleFor(x => x.FullName)
             .NotEmpty()
@@ -21,7 +22,13 @@ public sealed class RegisterValidator : AbstractValidator<RegisterCommand>
             .MinimumLength(PasswordConstants.MinimumLength)
             .MaximumLength(PasswordConstants.MaximumLength);
 
+        RuleFor(x => x.ConfirmPassword)
+            .NotEmpty()
+            .Equal(x => x.Password)
+            .WithMessage("Passwords do not match.");
+
         RuleFor(x => x.AvatarUrl)
-            .MaximumLength(ValidationConstants.AvatarUrlMaxLength);
+            .MaximumLength(ValidationConstants.AvatarUrlMaxLength)
+            .When(x => !string.IsNullOrWhiteSpace(x.AvatarUrl));
     }
 }
