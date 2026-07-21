@@ -1200,6 +1200,7 @@
         "dependencies": {
           "BCrypt.Net-Next": "4.2.0",
           "Microsoft.EntityFrameworkCore": "9.0.17",
+          "Microsoft.EntityFrameworkCore.Relational": "9.0.17",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.17",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
           "ProjectHub.Application": "1.0.0",
