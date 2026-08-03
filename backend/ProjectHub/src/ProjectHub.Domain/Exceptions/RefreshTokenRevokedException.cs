@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ProjectHub.Domain.Exceptions
 {
-    internal class RefreshTokenRevokedException
+    public sealed class RefreshTokenRevokedException : Exception
     {
+        public RefreshTokenRevokedException(): base("The refresh token has been revoked.") { }
     }
 }

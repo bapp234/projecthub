@@ -9,6 +9,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
+using System.Security.Cryptography;
 
 namespace ProjectHub.Persistence.Authentication
 {
@@ -29,9 +30,24 @@ namespace ProjectHub.Persistence.Authentication
             };
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_options.SecretKey));
             var credentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-            var token = new JwtSecurityToken(issuer:_options.Issuer,audience:_options.Audience,claims:claims,expires:DateTime.UtcNow.AddMinutes(_options.AccessTokenExpirationInMinutes),signingCredentials:credentials);
+            var token = new JwtSecurityToken(issuer:_options.Issuer,audience:_options.Audience,claims:claims,expires: GetAccessTokenExpiration(), signingCredentials:credentials);
 
             return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+        public string GenerateRefreshToken()
+        {
+            return Convert.ToBase64String(
+                RandomNumberGenerator.GetBytes(64));
+        }
+        public DateTime GetAccessTokenExpiration()
+        {
+            return DateTime.UtcNow.AddMinutes(
+                _options.AccessTokenExpirationInMinutes);
+        }
+        public DateTime GetRefreshTokenExpiration()
+        {
+            return DateTime.UtcNow.AddDays(
+                _options.RefreshTokenExpirationInDays);
         }
     }
 }

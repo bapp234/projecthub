@@ -12,13 +12,16 @@ public sealed class RegisterHandler
 {
     private readonly IUserRepository _userRepository;
     private readonly IPasswordHasher _passwordHasher;
+    private readonly IUnitOfWork _unitOfWork;
 
     public RegisterHandler(
-        IUserRepository userRepository,
-        IPasswordHasher passwordHasher)
+    IUserRepository userRepository,
+    IPasswordHasher passwordHasher,
+    IUnitOfWork unitOfWork)
     {
         _userRepository = userRepository;
         _passwordHasher = passwordHasher;
+        _unitOfWork = unitOfWork;
     }
 
     public async Task<RegisterResult> Handle(
@@ -34,7 +37,7 @@ public sealed class RegisterHandler
         var hashedPassword = _passwordHasher.Hash(request.Password);
         var user = User.Create(request.FullName, email, hashedPassword, request.AvatarUrl);
         await _userRepository.AddAsync(user, cancellationToken);
-        await _userRepository.SaveChangesAsync(cancellationToken);
+        await _unitOfWork.SaveChangesAsync(cancellationToken);
         return new RegisterResult(
             user.Id,
             user.FullName,
