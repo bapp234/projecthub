@@ -50,5 +50,10 @@ public sealed class UserConfiguration : IEntityTypeConfiguration<User>
         builder.Property(x => x.LockoutEndUtc);
 
         builder.Property(x => x.LastLoginUtc);
+        builder
+        .HasMany(x => x.RefreshTokens)
+        .WithOne(x => x.User)
+        .HasForeignKey(x => x.UserId)
+        .OnDelete(DeleteBehavior.Cascade);
     }
 }

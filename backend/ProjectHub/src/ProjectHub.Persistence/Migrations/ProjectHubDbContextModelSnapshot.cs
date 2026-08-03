@@ -73,6 +73,65 @@ namespace ProjectHub.Persistence.Migrations
                     b.ToTable("Projects", (string)null);
                 });
 
+            modelBuilder.Entity("ProjectHub.Domain.Entities.RefreshToken", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTimeOffset>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid?>("CreatedBy")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTimeOffset?>("DeletedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid?>("DeletedBy")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("ExpiresAtUtc")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("boolean");
+
+                    b.Property<string>("ReasonRevoked")
+                        .HasMaxLength(256)
+                        .HasColumnType("character varying(256)");
+
+                    b.Property<string>("ReplacedByToken")
+                        .HasMaxLength(512)
+                        .HasColumnType("character varying(512)");
+
+                    b.Property<DateTime?>("RevokedAtUtc")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Token")
+                        .IsRequired()
+                        .HasMaxLength(512)
+                        .HasColumnType("character varying(512)");
+
+                    b.Property<DateTimeOffset?>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid?>("UpdatedBy")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Token")
+                        .IsUnique();
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("RefreshTokens", (string)null);
+                });
+
             modelBuilder.Entity("ProjectHub.Domain.Entities.Task", b =>
                 {
                     b.Property<Guid>("Id")
@@ -306,6 +365,17 @@ namespace ProjectHub.Persistence.Migrations
                     b.Navigation("Workspace");
                 });
 
+            modelBuilder.Entity("ProjectHub.Domain.Entities.RefreshToken", b =>
+                {
+                    b.HasOne("ProjectHub.Domain.Entities.User", "User")
+                        .WithMany("RefreshTokens")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("ProjectHub.Domain.Entities.Task", b =>
                 {
                     b.HasOne("ProjectHub.Domain.Entities.User", "Assignee")
@@ -409,6 +479,8 @@ namespace ProjectHub.Persistence.Migrations
 
             modelBuilder.Entity("ProjectHub.Domain.Entities.User", b =>
                 {
+                    b.Navigation("RefreshTokens");
+
                     b.Navigation("WorkspaceMemberships");
                 });
 

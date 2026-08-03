@@ -11,12 +11,15 @@ public sealed class RegisterHandlerTests
 {
     private readonly Mock<IUserRepository> _repository;
     private readonly Mock<IPasswordHasher> _passwordHasher;
+    private readonly Mock<IUnitOfWork> _unitOfWork;
 
     public RegisterHandlerTests()
     {
         _repository = new Mock<IUserRepository>();
 
         _passwordHasher = new Mock<IPasswordHasher>();
+
+        _unitOfWork = new Mock<IUnitOfWork>();
     }
 
     [Fact]
@@ -44,7 +47,8 @@ public sealed class RegisterHandlerTests
 
         var handler = new RegisterHandler(
             _repository.Object,
-            _passwordHasher.Object);
+            _passwordHasher.Object,
+            _unitOfWork.Object);
 
         // Act
 
@@ -70,7 +74,7 @@ public sealed class RegisterHandlerTests
                 It.IsAny<CancellationToken>()),
             Times.Once);
 
-        _repository.Verify(
+        _unitOfWork.Verify(
             x => x.SaveChangesAsync(
                 It.IsAny<CancellationToken>()),
             Times.Once);
@@ -99,7 +103,8 @@ public sealed class RegisterHandlerTests
 
         var handler = new RegisterHandler(
             _repository.Object,
-            _passwordHasher.Object);
+            _passwordHasher.Object,
+            _unitOfWork.Object);
 
         // Act + Assert
 
@@ -114,7 +119,7 @@ public sealed class RegisterHandlerTests
                 It.IsAny<CancellationToken>()),
             Times.Never);
 
-        _repository.Verify(
+        _unitOfWork.Verify(
             x => x.SaveChangesAsync(
                 It.IsAny<CancellationToken>()),
             Times.Never);
@@ -145,7 +150,8 @@ public sealed class RegisterHandlerTests
 
         var handler = new RegisterHandler(
             _repository.Object,
-            _passwordHasher.Object);
+            _passwordHasher.Object,
+            _unitOfWork.Object);
 
         // Act
 

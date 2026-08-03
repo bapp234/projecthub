@@ -1,19 +1,81 @@
 [
   {
-    "ContainingType": "ProjectHub.Api.Controllers.UsersController",
-    "Method": "Create",
-    "RelativePath": "api/users",
+    "ContainingType": "ProjectHub.Api.Controllers.AuthenticationController",
+    "Method": "Login",
+    "RelativePath": "api/auth/login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "command",
-        "Type": "ProjectHub.Application.Features.Users.Commands.CreateUser.CreateUserCommand",
+        "Type": "ProjectHub.Application.Features.Authentication.Commands.Login.LoginCommand",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "ProjectHub.Application.Features.Authentication.Commands.Login.LoginResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProjectHub.Api.Controllers.AuthenticationController",
+    "Method": "Refresh",
+    "RelativePath": "api/auth/refresh",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "ProjectHub.Application.Features.Authentication.Commands.Refresh.RefreshCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ProjectHub.Application.Features.Authentication.Commands.Refresh.RefreshResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProjectHub.Api.Controllers.AuthenticationController",
+    "Method": "Register",
+    "RelativePath": "api/auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "ProjectHub.Application.Features.Authentication.Commands.Register.RegisterCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ProjectHub.Application.Features.Authentication.Commands.Register.RegisterCommand",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      }
+    ]
   },
   {
     "ContainingType": "ProjectHub.Api.Controllers.UsersController",

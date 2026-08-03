@@ -12,4 +12,7 @@ public static class ValidationMessages
     // Password
     public const string PasswordsDoNotMatch =
         "Passwords do not match.";
+    // Refresh Token
+    public const string RefreshTokenRequired =
+    "Refresh token is required.";
 }

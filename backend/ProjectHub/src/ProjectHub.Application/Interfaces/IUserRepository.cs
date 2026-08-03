@@ -11,6 +11,4 @@ public interface IUserRepository
         Email email,
         CancellationToken cancellationToken);
     Task AddAsync(User user, CancellationToken cancellationToken);
-
-    Task SaveChangesAsync(CancellationToken cancellationToken);
 }

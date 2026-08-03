@@ -14,6 +14,8 @@ public sealed class LoginHandlerTests
     private readonly Mock<IUserRepository> _repository = new();
     private readonly Mock<IPasswordHasher> _passwordHasher = new();
     private readonly Mock<IJwtProvider> _jwtProvider = new();
+    private readonly Mock<IUnitOfWork> _unitOfWork = new();
+    private readonly Mock<IRefreshTokenRepository> _refreshTokenRepository = new();
 
     private readonly LoginHandler _handler;
 
@@ -22,7 +24,9 @@ public sealed class LoginHandlerTests
         _handler = new LoginHandler(
             _repository.Object,
             _passwordHasher.Object,
-            _jwtProvider.Object);
+            _jwtProvider.Object,
+            _unitOfWork.Object,
+            _refreshTokenRepository.Object);
     }
     [Fact]
     public async Task Handle_Should_ReturnLoginResult_WhenCredentialsAreValid()

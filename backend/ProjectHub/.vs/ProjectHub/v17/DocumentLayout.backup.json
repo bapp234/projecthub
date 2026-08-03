@@ -7,12 +7,48 @@
       "RelativeMoniker": "D:0:0:{5C5F129C-7E52-4548-A146-C293888224D9}|ProjectHub.Api.IntegrationTests\\ProjectHub.Api.IntegrationTests.csproj|solutionrelative:projecthub.api.integrationtests\\authentication\\loginhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{57CB6ECB-5EFD-0A72-F940-8F874990C80E}|src\\ProjectHub.Application\\ProjectHub.Application.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.application\\features\\authentication\\commands\\refresh\\refreshcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57CB6ECB-5EFD-0A72-F940-8F874990C80E}|src\\ProjectHub.Application\\ProjectHub.Application.csproj|solutionrelative:src\\projecthub.application\\features\\authentication\\commands\\refresh\\refreshcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D118B918-1C9C-EFC9-7DEA-B4BACC4C67F6}|src\\ProjectHub.Persistence\\ProjectHub.Persistence.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.persistence\\authentication\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D118B918-1C9C-EFC9-7DEA-B4BACC4C67F6}|src\\ProjectHub.Persistence\\ProjectHub.Persistence.csproj|solutionrelative:src\\projecthub.persistence\\authentication\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{57CB6ECB-5EFD-0A72-F940-8F874990C80E}|src\\ProjectHub.Application\\ProjectHub.Application.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.application\\features\\authentication\\commands\\login\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57CB6ECB-5EFD-0A72-F940-8F874990C80E}|src\\ProjectHub.Application\\ProjectHub.Application.csproj|solutionrelative:src\\projecthub.application\\features\\authentication\\commands\\login\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57CB6ECB-5EFD-0A72-F940-8F874990C80E}|src\\ProjectHub.Application\\ProjectHub.Application.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.application\\features\\authentication\\commands\\login\\logincommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57CB6ECB-5EFD-0A72-F940-8F874990C80E}|src\\ProjectHub.Application\\ProjectHub.Application.csproj|solutionrelative:src\\projecthub.application\\features\\authentication\\commands\\login\\logincommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D118B918-1C9C-EFC9-7DEA-B4BACC4C67F6}|src\\ProjectHub.Persistence\\ProjectHub.Persistence.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.persistence\\authentication\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D118B918-1C9C-EFC9-7DEA-B4BACC4C67F6}|src\\ProjectHub.Persistence\\ProjectHub.Persistence.csproj|solutionrelative:src\\projecthub.persistence\\authentication\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57CB6ECB-5EFD-0A72-F940-8F874990C80E}|src\\ProjectHub.Application\\ProjectHub.Application.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.application\\features\\authentication\\commands\\register\\registerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57CB6ECB-5EFD-0A72-F940-8F874990C80E}|src\\ProjectHub.Application\\ProjectHub.Application.csproj|solutionrelative:src\\projecthub.application\\features\\authentication\\commands\\register\\registerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57CB6ECB-5EFD-0A72-F940-8F874990C80E}|src\\ProjectHub.Application\\ProjectHub.Application.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.application\\features\\authentication\\commands\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57CB6ECB-5EFD-0A72-F940-8F874990C80E}|src\\ProjectHub.Application\\ProjectHub.Application.csproj|solutionrelative:src\\projecthub.application\\features\\authentication\\commands\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57CB6ECB-5EFD-0A72-F940-8F874990C80E}|src\\ProjectHub.Application\\ProjectHub.Application.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.application\\features\\authentication\\commands\\login\\loginresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57CB6ECB-5EFD-0A72-F940-8F874990C80E}|src\\ProjectHub.Application\\ProjectHub.Application.csproj|solutionrelative:src\\projecthub.application\\features\\authentication\\commands\\login\\loginresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E736EA-D004-E360-F34F-F17F0869F970}|src\\ProjectHub.Api\\ProjectHub.Api.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{48E736EA-D004-E360-F34F-F17F0869F970}|src\\ProjectHub.Api\\ProjectHub.Api.csproj|solutionrelative:src\\projecthub.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E736EA-D004-E360-F34F-F17F0869F970}|src\\ProjectHub.Api\\ProjectHub.Api.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E736EA-D004-E360-F34F-F17F0869F970}|src\\ProjectHub.Api\\ProjectHub.Api.csproj|solutionrelative:src\\projecthub.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D118B918-1C9C-EFC9-7DEA-B4BACC4C67F6}|src\\ProjectHub.Persistence\\ProjectHub.Persistence.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.persistence\\database\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D118B918-1C9C-EFC9-7DEA-B4BACC4C67F6}|src\\ProjectHub.Persistence\\ProjectHub.Persistence.csproj|solutionrelative:src\\projecthub.persistence\\database\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D118B918-1C9C-EFC9-7DEA-B4BACC4C67F6}|src\\ProjectHub.Persistence\\ProjectHub.Persistence.csproj|e:\\porfolito\\projecthub\\backend\\projecthub\\src\\projecthub.persistence\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D118B918-1C9C-EFC9-7DEA-B4BACC4C67F6}|src\\ProjectHub.Persistence\\ProjectHub.Persistence.csproj|solutionrelative:src\\projecthub.persistence\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,41 +82,158 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginResult.cs",
+              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Login\\LoginResult.cs",
+              "RelativeDocumentMoniker": "src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Login\\LoginResult.cs",
+              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Login\\LoginResult.cs",
+              "RelativeToolTip": "src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Login\\LoginResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T07:57:23.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginCommand.cs",
+              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Login\\LoginCommand.cs",
+              "RelativeDocumentMoniker": "src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Login\\LoginCommand.cs",
+              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Login\\LoginCommand.cs",
+              "RelativeToolTip": "src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Login\\LoginCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T07:57:10.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginHandler.cs",
+              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Login\\LoginHandler.cs",
+              "RelativeDocumentMoniker": "src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Login\\LoginHandler.cs",
+              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Login\\LoginHandler.cs",
+              "RelativeToolTip": "src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Login\\LoginHandler.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwDgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T07:55:22.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\ProjectHub.Api\\appsettings.json",
+              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Api\\appsettings.json",
+              "RelativeToolTip": "src\\ProjectHub.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-03T07:44:59.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterHandler.cs",
+              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Register\\RegisterHandler.cs",
+              "RelativeDocumentMoniker": "src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Register\\RegisterHandler.cs",
+              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Register\\RegisterHandler.cs",
+              "RelativeToolTip": "src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Register\\RegisterHandler.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T07:18:33.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RefreshCommandHandler.cs",
+              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Refresh\\RefreshCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Refresh\\RefreshCommandHandler.cs",
+              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Refresh\\RefreshCommandHandler.cs",
+              "RelativeToolTip": "src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Refresh\\RefreshCommandHandler.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAswCQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T07:22:32.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "LoginHandlerTests.cs",
               "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\ProjectHub.Api.IntegrationTests\\Authentication\\LoginHandlerTests.cs",
               "RelativeDocumentMoniker": "ProjectHub.Api.IntegrationTests\\Authentication\\LoginHandlerTests.cs",
               "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\ProjectHub.Api.IntegrationTests\\Authentication\\LoginHandlerTests.cs",
               "RelativeToolTip": "ProjectHub.Api.IntegrationTests\\Authentication\\LoginHandlerTests.cs",
-              "ViewState": "AgIAALEAAAAAAAAAAAAgwLwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAgwBwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T14:44:19.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginHandler.cs",
-              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Login\\LoginHandler.cs",
-              "RelativeDocumentMoniker": "src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Login\\LoginHandler.cs",
-              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Login\\LoginHandler.cs",
-              "RelativeToolTip": "src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Login\\LoginHandler.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDEAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T14:33:13.499Z",
+              "WhenOpened": "2026-08-03T07:26:39.628Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "LoginCommandValidator.cs",
-              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Login\\LoginCommandValidator.cs",
-              "RelativeDocumentMoniker": "src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Login\\LoginCommandValidator.cs",
-              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Login\\LoginCommandValidator.cs",
-              "RelativeToolTip": "src\\ProjectHub.Application\\Features\\Authentication\\Commands\\Login\\LoginCommandValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Title": "JwtProvider.cs",
+              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Persistence\\Authentication\\JwtProvider.cs",
+              "RelativeDocumentMoniker": "src\\ProjectHub.Persistence\\Authentication\\JwtProvider.cs",
+              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Persistence\\Authentication\\JwtProvider.cs",
+              "RelativeToolTip": "src\\ProjectHub.Persistence\\Authentication\\JwtProvider.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T14:31:47.735Z",
+              "WhenOpened": "2026-08-03T08:12:30.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JwtOptions.cs",
+              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Persistence\\Authentication\\JwtOptions.cs",
+              "RelativeDocumentMoniker": "src\\ProjectHub.Persistence\\Authentication\\JwtOptions.cs",
+              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Persistence\\Authentication\\JwtOptions.cs",
+              "RelativeToolTip": "src\\ProjectHub.Persistence\\Authentication\\JwtOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T08:12:26.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Api\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "src\\ProjectHub.Api\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Api\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "src\\ProjectHub.Api\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T07:35:01.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Persistence\\Database\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "src\\ProjectHub.Persistence\\Database\\UnitOfWork.cs",
+              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Persistence\\Database\\UnitOfWork.cs",
+              "RelativeToolTip": "src\\ProjectHub.Persistence\\Database\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T07:22:29.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Persistence\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "src\\ProjectHub.Persistence\\Repositories\\UserRepository.cs",
+              "ToolTip": "E:\\PORFOLITO\\projecthub\\backend\\ProjectHub\\src\\ProjectHub.Persistence\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "src\\ProjectHub.Persistence\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T07:19:24.699Z",
               "EditorCaption": ""
             }
           ]
